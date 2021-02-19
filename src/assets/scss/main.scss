@@ -1,0 +1,36 @@
+@import "utils/vars";
+@import "utils/reset";
+
+html {
+  font-family: $mainFontFamily;
+  line-height: $mainLineHeight;
+  font-size: $mainFontSize;
+  color: $mainWhiteColor;
+
+  background: url("../img/bg.jpg") 100% / cover fixed;
+}
+
+.container {
+  position: relative;
+  width: 900px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 20px 0;
+
+  @media screen and (max-width: $smDesktopWidth) {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+// Modules
+// @import "modules/my-module";
+@import "modules/header";
+@import "modules/page";
+@import "modules/cards-page";
+@import "modules/card";
+@import "modules/pagination";
+@import "modules/loader";
+@import "modules/about";
+@import "modules/pokemon-info";
+@import "modules/list-page";
