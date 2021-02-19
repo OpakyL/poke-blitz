@@ -1,5 +1,5 @@
 # PokeBlitz
-Junior test task for http://www.blitz-studio.ru/
+Junior task for http://www.blitz-studio.ru/
 
 Production version https://poke-blitz.vercel.app/
 
